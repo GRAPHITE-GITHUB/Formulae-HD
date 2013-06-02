@@ -30,6 +30,7 @@ IBOutlet UIWebView *Webview;
 -(IBAction)logexpo;
 -(IBAction)logger:(id)sender;
 -(IBAction)fce;
+-(IBAction)back;
 
 -(IBAction)line:(id)sender;
 

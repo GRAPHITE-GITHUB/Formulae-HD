@@ -624,6 +624,10 @@
 }
 
 
+-(IBAction)back{
+    [Webview setHidden:YES];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
