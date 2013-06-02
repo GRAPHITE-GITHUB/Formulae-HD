@@ -103,7 +103,6 @@
 		63FB0C481733C43000F8EF03 /* Linear Graphing Quiz yr11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63FB0C471733C43000F8EF03 /* Linear Graphing Quiz yr11.pdf */; };
 		63FB0C4C1733C59D00F8EF03 /* Button Click On-SoundBible.com-459633989.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63FB0C4A1733C59D00F8EF03 /* Button Click On-SoundBible.com-459633989.mp3 */; };
 		63FB0C4D1733C59D00F8EF03 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FB0C4B1733C59D00F8EF03 /* CustomAlertView.m */; };
-		63FB0C4F1733C5AE00F8EF03 /* Page_Turn-Mark_DiAngelo-1304638748.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63FB0C4E1733C5AE00F8EF03 /* Page_Turn-Mark_DiAngelo-1304638748.mp3 */; };
 		63FB0C511733C5B500F8EF03 /* beep1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63FB0C501733C5B500F8EF03 /* beep1.mp3 */; };
 		63FB0C531733C5D200F8EF03 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FB0C521733C5D200F8EF03 /* AudioToolbox.framework */; };
 		63FB0C551733C69400F8EF03 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FB0C541733C69400F8EF03 /* MediaPlayer.framework */; };
@@ -226,7 +225,6 @@
 		63FB0C491733C59D00F8EF03 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
 		63FB0C4A1733C59D00F8EF03 /* Button Click On-SoundBible.com-459633989.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Button Click On-SoundBible.com-459633989.mp3"; sourceTree = "<group>"; };
 		63FB0C4B1733C59D00F8EF03 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
-		63FB0C4E1733C5AE00F8EF03 /* Page_Turn-Mark_DiAngelo-1304638748.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Page_Turn-Mark_DiAngelo-1304638748.mp3"; sourceTree = "<group>"; };
 		63FB0C501733C5B500F8EF03 /* beep1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep1.mp3; sourceTree = "<group>"; };
 		63FB0C521733C5D200F8EF03 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		63FB0C541733C69400F8EF03 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -300,9 +298,11 @@
 			children = (
 				636D66EA1733ACD6007264E6 /* AppDelegate.h */,
 				636D66EB1733ACD6007264E6 /* AppDelegate.m */,
+				636D66F61733ACD6007264E6 /* ViewController.h */,
+				636D66F71733ACD6007264E6 /* ViewController.m */,
+				636D66F31733ACD6007264E6 /* MainStoryboard.storyboard */,
 				636A095A175ADC60002D923F /* chain.png */,
 				636A095B175ADC60002D923F /* trigfunctions.png */,
-				636D66F31733ACD6007264E6 /* MainStoryboard.storyboard */,
 				63143552175AC3D400445CB0 /* Statistics Video Playlist Questions.pdf */,
 				636A738F175ACF3A00D5F95A /* dfff.png */,
 				636A0958175ADC52002D923F /* trigfunctionsderiv.png */,
@@ -365,10 +365,8 @@
 				636A0946175ADAE6002D923F /* triga.png */,
 				636A0944175AD8E8002D923F /* logexpo.png */,
 				636A738D175ACE1F00D5F95A /* diff12.png */,
-				636D66F61733ACD6007264E6 /* ViewController.h */,
 				636A7391175AD0A500D5F95A /* linealg.png */,
 				636A0948175ADB67002D923F /* slopederivative.png */,
-				636D66F71733ACD6007264E6 /* ViewController.m */,
 				636A7387175AC84200D5F95A /* Formulae.mp4 */,
 				636A0934175AD3AB002D923F /* fce.png */,
 				63FB0C6A1733CDA900F8EF03 /* Mathematics Quiz – Statistics.pdf */,
@@ -401,7 +399,6 @@
 				63FB0C4A1733C59D00F8EF03 /* Button Click On-SoundBible.com-459633989.mp3 */,
 				63FB0C4B1733C59D00F8EF03 /* CustomAlertView.m */,
 				63FB0C501733C5B500F8EF03 /* beep1.mp3 */,
-				63FB0C4E1733C5AE00F8EF03 /* Page_Turn-Mark_DiAngelo-1304638748.mp3 */,
 				636D66E21733ACD6007264E6 /* Supporting Files */,
 			);
 			path = FormulaeHD;
@@ -479,7 +476,6 @@
 				636D66F51733ACD6007264E6 /* MainStoryboard.storyboard in Resources */,
 				63FB0C481733C43000F8EF03 /* Linear Graphing Quiz yr11.pdf in Resources */,
 				63FB0C4C1733C59D00F8EF03 /* Button Click On-SoundBible.com-459633989.mp3 in Resources */,
-				63FB0C4F1733C5AE00F8EF03 /* Page_Turn-Mark_DiAngelo-1304638748.mp3 in Resources */,
 				63FB0C511733C5B500F8EF03 /* beep1.mp3 in Resources */,
 				63FB0C591733C9DA00F8EF03 /* Quadratics and Polynomials.pdf in Resources */,
 				63FB0C5B1733CAEE00F8EF03 /* Exponents and Logs Quiz.pdf in Resources */,
@@ -674,6 +670,7 @@
 		636D66FC1733ACD6007264E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FormulaeHD/FormulaeHD-Prefix.pch";
 				INFOPLIST_FILE = "FormulaeHD/FormulaeHD-Info.plist";
@@ -685,6 +682,7 @@
 		636D66FD1733ACD6007264E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FormulaeHD/FormulaeHD-Prefix.pch";
 				INFOPLIST_FILE = "FormulaeHD/FormulaeHD-Info.plist";

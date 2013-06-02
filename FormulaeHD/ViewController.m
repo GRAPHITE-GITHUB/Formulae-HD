@@ -28,14 +28,13 @@
 		 action:@selector(swipeRightDetected:)];
 		swipeRecognizer.direction = UISwipeGestureRecognizerDirectionRight;
 		[self.view addGestureRecognizer:swipeRecognizer];
-		[swipeRecognizer release];
 	}
 	{UISwipeGestureRecognizer *swipeRecognizer =
 		[[UISwipeGestureRecognizer alloc]	 initWithTarget:self
 												   action:@selector(swipeLeftDetected:)];
 		swipeRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
 		[self.view addGestureRecognizer:swipeRecognizer];
-		[swipeRecognizer release]; }
+		 }
     
     
     BOOL ranBefore = [[NSUserDefaults standardUserDefaults]boolForKey:@"RanBefore"];
@@ -46,7 +45,6 @@
         
         
         [alert show];
-        [alert release];
         [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"RanBefore"];
         [[NSUserDefaults standardUserDefaults] synchronize];
         
@@ -607,16 +605,8 @@
         
         
     } ];
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Page_Turn-Mark_DiAngelo-1304638748" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-    
-    
-    
-    
+
+
 }
 
 
@@ -629,14 +619,7 @@
         
         
     } ];
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Page_Turn-Mark_DiAngelo-1304638748" ofType:@"mp3"];
-    AVAudioPlayer* theAudio=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-	theAudio.delegate = self;
-	[theAudio play];
-    theAudio.numberOfLoops = 1;
-    
-    
+
 
 }
 

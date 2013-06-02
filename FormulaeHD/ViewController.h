@@ -35,7 +35,7 @@ IBOutlet UIWebView *Webview;
 
 -(IBAction)graphInter:(id)sender;
 -(IBAction)quadQuiz:(id)sender;
-@property(nonatomic,retain)IBOutlet UIImageView *formulae;
+@property(nonatomic,strong)IBOutlet UIImageView *formulae;
 
 -(IBAction)quadCon:(id)sender;
 
