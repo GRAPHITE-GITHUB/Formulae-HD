@@ -915,18 +915,15 @@
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" maximumZoomScale="5" translatesAutoresizingMaskIntoConstraints="NO" id="aZR-ns-kLi">
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="lt1-zb-7XO">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="369" id="UhG-Xl-PQv"/>
-                                        </constraints>
-                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="lt1-zb-7XO"/>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="lt1-zb-7XO" firstAttribute="leading" secondItem="aZR-ns-kLi" secondAttribute="leading" type="default" id="4gB-jf-eXQ"/>
                                     <constraint firstItem="lt1-zb-7XO" firstAttribute="centerX" secondItem="aZR-ns-kLi" secondAttribute="centerX" type="default" id="AnA-GR-sj5"/>
-                                    <constraint firstItem="lt1-zb-7XO" firstAttribute="top" secondItem="aZR-ns-kLi" secondAttribute="top" constant="52" id="i10-FC-j5a"/>
-                                    <constraint firstAttribute="bottom" secondItem="lt1-zb-7XO" secondAttribute="bottom" constant="-52" id="jYT-Rm-8QN"/>
+                                    <constraint firstItem="lt1-zb-7XO" firstAttribute="top" secondItem="aZR-ns-kLi" secondAttribute="top" type="default" id="PQa-Gx-Dir"/>
                                     <constraint firstItem="lt1-zb-7XO" firstAttribute="trailing" secondItem="aZR-ns-kLi" secondAttribute="trailing" type="default" id="l5a-U2-Ndv"/>
+                                    <constraint firstItem="lt1-zb-7XO" firstAttribute="centerY" secondItem="aZR-ns-kLi" secondAttribute="centerY" type="default" id="mhv-n4-0MU"/>
+                                    <constraint firstItem="lt1-zb-7XO" firstAttribute="bottom" secondItem="aZR-ns-kLi" secondAttribute="bottom" type="default" id="wZd-0N-owf"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
