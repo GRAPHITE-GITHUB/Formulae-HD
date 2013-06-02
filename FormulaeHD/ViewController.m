@@ -17,9 +17,12 @@
 
 @implementation ViewController
 @synthesize formulae;
+@synthesize scrollView;
 
 - (void)viewDidLoad
 {
+    
+
     [Webview setHidden:YES];
     
     { UISwipeGestureRecognizer *swipeRecognizer =
@@ -57,6 +60,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
 -(IBAction)graphInter:(id)sender {
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Linear Graphing Quiz yr11" ofType:@"pdf"];
     NSURL *url = [NSURL fileURLWithPath:path];

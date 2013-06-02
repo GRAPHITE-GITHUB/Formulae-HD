@@ -13,7 +13,7 @@
     
 IBOutlet UIWebView *Webview;
     IBOutlet UIImageView *formulae;
-    
+    IBOutlet UIScrollView *scrollView;
 }
 
 -(IBAction)slopederiv;
@@ -37,6 +37,7 @@ IBOutlet UIWebView *Webview;
 -(IBAction)graphInter:(id)sender;
 -(IBAction)quadQuiz:(id)sender;
 @property(nonatomic,strong)IBOutlet UIImageView *formulae;
+@property (nonatomic, retain)IBOutlet UIScrollView *scrollView;
 
 -(IBAction)quadCon:(id)sender;
 
